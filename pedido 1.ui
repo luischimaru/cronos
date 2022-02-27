@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>627</width>
+    <height>592</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(170, 85, 255);</string>
+  </property>
+  <widget class="QTableWidget" name="tb_pedido">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>621</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>pedido</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>valor</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>pagamento</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>tipo de retirada</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="bt_novo">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>570</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(116, 116, 116);</string>
+   </property>
+   <property name="text">
+    <string>novo pedido</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_mudar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>570</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(116, 116, 116);</string>
+   </property>
+   <property name="text">
+    <string>mudar pedido</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_consulta">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>570</y>
+     <width>141</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(116, 116, 116);</string>
+   </property>
+   <property name="text">
+    <string>consulta de clientes</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

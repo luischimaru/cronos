@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>593</width>
+    <height>588</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>541</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>dinheiro</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>cartão de crédito</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>cartão de débito</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>VA</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>VR</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>cheque</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>IFOOD</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>cardeneta</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>troco</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>despesas</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>PIX</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>total</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>valor</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>2000,00</string>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>300,00</string>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>7000,00</string>
+    </property>
+   </item>
+   <item row="3" column="0">
+    <property name="text">
+     <string>500,00</string>
+    </property>
+   </item>
+   <item row="4" column="0">
+    <property name="text">
+     <string>1000,00</string>
+    </property>
+   </item>
+   <item row="5" column="0">
+    <property name="text">
+     <string>00,00</string>
+    </property>
+   </item>
+   <item row="6" column="0">
+    <property name="text">
+     <string>7000,00</string>
+    </property>
+   </item>
+   <item row="7" column="0">
+    <property name="text">
+     <string>200,00</string>
+    </property>
+   </item>
+   <item row="8" column="0">
+    <property name="text">
+     <string>750,00</string>
+    </property>
+   </item>
+   <item row="9" column="0">
+    <property name="text">
+     <string>800</string>
+    </property>
+   </item>
+   <item row="10" column="0">
+    <property name="text">
+     <string>70,00</string>
+    </property>
+   </item>
+   <item row="11" column="0">
+    <property name="text">
+     <string>34120,00</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>124</x>
+     <y>550</y>
+     <width>341</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>fecha</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
